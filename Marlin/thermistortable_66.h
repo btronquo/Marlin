@@ -20,7 +20,7 @@
  *
  */
 
-// DyzeDesign 500°C Thermistor
+// DyzeDesign 500Â°C Thermistor
 const short temptable_66[][2] PROGMEM = {
   { OV(  17.5), 850 },
   { OV(  17.9), 500 },
@@ -50,3 +50,4 @@ const short temptable_66[][2] PROGMEM = {
   { OV(1023) - 1, 25},
   { OV(  1023),  20}
 };
+

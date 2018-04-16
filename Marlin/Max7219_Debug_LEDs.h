@@ -88,3 +88,4 @@ void Max7219_Set_Column(const uint8_t col, const uint8_t val);
 void Max7219_idle_tasks();
 
 #endif // __MAX7219_DEBUG_LEDS_H__
+

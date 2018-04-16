@@ -127,7 +127,7 @@
 #define SPINDLE_DIR_PIN          19
 
 //
-// Průša i3 MK2 Multiplexer Support
+// PrÅ¯Å¡a i3 MK2 Multiplexer Support
 //
 #define E_MUX0_PIN         17
 #define E_MUX1_PIN         16
@@ -187,3 +187,4 @@
   #endif // NEWPANEL
 
 #endif // ULTRA_LCD
+

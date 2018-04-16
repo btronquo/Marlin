@@ -168,3 +168,4 @@
 #endif
 
 #endif // MARLINSERIAL_H
+

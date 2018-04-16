@@ -450,7 +450,7 @@ static_assert(X_MAX_LENGTH >= X_BED_SIZE && Y_MAX_LENGTH >= Y_BED_SIZE,
 #endif
 
 /**
- * Sanity checking for the Průša MK2 Multiplexer
+ * Sanity checking for the PrÅ¯Å¡a MK2 Multiplexer
  */
 #ifdef SNMM
   #error "SNMM is now MK2_MULTIPLEXER. Please update your configuration."
@@ -1612,3 +1612,4 @@ static_assert(COUNT(sanity_arr_3) <= XYZE_N, "DEFAULT_MAX_ACCELERATION has too m
 #endif
 
 #endif // _SANITYCHECK_H_
+

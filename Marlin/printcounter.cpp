@@ -232,3 +232,4 @@ void PrintCounter::reset() {
   }
 
 #endif
+

@@ -27,7 +27,7 @@
  * Modified 23 November 2006 by David A. Mellis
  * Modified 28 September 2010 by Mark Sproul
  * Modified 14 February 2016 by Andreas Hardtung (added tx buffer)
- * Modified 01 October 2017 by Eduardo José Tagle (added XON/XOFF)
+ * Modified 01 October 2017 by Eduardo JosÃ© Tagle (added XON/XOFF)
  */
 
 // Disable HardwareSerial.cpp to support chips without a UART (Attiny, etc.)
@@ -652,3 +652,4 @@
 #if defined(USBCON) && ENABLED(BLUETOOTH)
   HardwareSerial bluetoothSerial;
 #endif
+

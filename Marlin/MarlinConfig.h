@@ -40,3 +40,4 @@
 #include "SanityCheck.h"
 
 #endif // MARLIN_CONFIG_H
+

@@ -46,3 +46,4 @@ void print_hex_address(const void * const w);
 
 #endif // AUTO_BED_LEVELING_UBL || M100_FREE_MEMORY_WATCHER || DEBUG_GCODE_PARSER
 #endif // HEX_PRINT_ROUTINES_H
+

@@ -347,3 +347,4 @@ void Max7219_idle_tasks() {
 }
 
 #endif // MAX7219_DEBUG
+

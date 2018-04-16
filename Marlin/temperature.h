@@ -601,3 +601,4 @@ class Temperature {
 extern Temperature thermalManager;
 
 #endif // TEMPERATURE_H
+

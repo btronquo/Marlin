@@ -149,3 +149,4 @@ uint8_t mcp4728_simpleCommand(byte simpleCommand) {
 }
 
 #endif // DAC_STEPPER_CURRENT
+

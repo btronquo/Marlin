@@ -165,7 +165,7 @@ float Planner::previous_speed[NUM_AXIS],
 #ifdef XY_FREQUENCY_LIMIT
   // Old direction bits. Used for speed calculations
   unsigned char Planner::old_direction_bits = 0;
-  // Segment times (in µs). Used for speed calculations
+  // Segment times (in Âµs). Used for speed calculations
   uint32_t Planner::axis_segment_time_us[2][3] = { { MAX_FREQ_TIME_US + 1, 0, 0 }, { MAX_FREQ_TIME_US + 1, 0, 0 } };
 #endif
 
@@ -1112,7 +1112,7 @@ void Planner::_buffer_steps(const int32_t (&target)[XYZE], float fr_mm_s, const 
     if (cs > max_feedrate_mm_s[i]) NOMORE(speed_factor, max_feedrate_mm_s[i] / cs);
   }
 
-  // Max segment time in µs.
+  // Max segment time in Âµs.
   #ifdef XY_FREQUENCY_LIMIT
 
     // Check and limit the xy direction change frequency
@@ -1259,7 +1259,7 @@ void Planner::_buffer_steps(const int32_t (&target)[XYZE], float fr_mm_s, const 
   #endif
 
   /**
-   * Adapted from Průša MKS firmware
+   * Adapted from PrÅ¯Å¡a MKS firmware
    * https://github.com/prusa3d/Prusa-Firmware
    *
    * Start with a safe speed (from which the machine may halt to stop immediately).
@@ -1649,3 +1649,4 @@ void Planner::refresh_positioning() {
   }
 
 #endif
+

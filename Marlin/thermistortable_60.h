@@ -103,3 +103,4 @@ const short temptable_60[][2] PROGMEM = {
   { OV(1001),   9 },
   { OV(1008),   0 }
 };
+

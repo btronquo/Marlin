@@ -578,3 +578,4 @@ inline void report_pin_state_extended(int8_t pin, bool ignore, bool extended = f
     SERIAL_EOL();
   }
 }
+

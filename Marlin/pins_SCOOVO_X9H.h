@@ -154,3 +154,4 @@
   #define STAT_LED_RED_PIN  22
   #define STAT_LED_BLUE_PIN 32
 #endif // VIKI2/miniVIKI
+

@@ -548,7 +548,7 @@ void Stepper::isr() {
      *
      * Once any delay is added, the cost of the delay code itself
      * may be subtracted from this value to get a more accurate delay.
-     * Delays under 20 cycles (1.25µs) will be very accurate, using NOPs.
+     * Delays under 20 cycles (1.25Âµs) will be very accurate, using NOPs.
      * Longer delays use a loop. The resolution is 8 cycles.
      */
     #if HAS_X_STEP
@@ -598,9 +598,9 @@ void Stepper::isr() {
      * If a minimum pulse time was specified get the timer 0 value.
      *
      * TCNT0 has an 8x prescaler, so it increments every 8 cycles.
-     * That's every 0.5µs on 16MHz and every 0.4µs on 20MHz.
+     * That's every 0.5Âµs on 16MHz and every 0.4Âµs on 20MHz.
      * 20 counts of TCNT0 -by itself- is a good pulse delay.
-     * 10µs = 160 or 200 cycles.
+     * 10Âµs = 160 or 200 cycles.
      */
     #if EXTRA_CYCLES_XYZE > 20
       uint32_t pulse_start = TCNT0;
@@ -1658,3 +1658,4 @@ void Stepper::report_positions() {
   }
 
 #endif // HAS_MICROSTEPS
+

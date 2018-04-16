@@ -95,3 +95,4 @@
   #define THERMISTOR_NAME "Dummy 2"
 
 #endif // THERMISTOR_ID
+

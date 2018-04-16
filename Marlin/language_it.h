@@ -146,11 +146,11 @@
 #define MSG_MOVE_01MM                       _UxGT("Muovi di 0.1mm")
 #define MSG_MOVE_1MM                        _UxGT("Muovi di   1mm")
 #define MSG_MOVE_10MM                       _UxGT("Muovi di  10mm")
-#define MSG_SPEED                           _UxGT("Velocità")
+#define MSG_SPEED                           _UxGT("VelocitÃ ")
 #define MSG_BED_Z                           _UxGT("piatto Z")
 #define MSG_NOZZLE                          _UxGT("Ugello")
 #define MSG_BED                             _UxGT("Piatto")
-#define MSG_FAN_SPEED                       _UxGT("Velocità ventola")
+#define MSG_FAN_SPEED                       _UxGT("VelocitÃ  ventola")
 #define MSG_FLOW                            _UxGT("Flusso")
 #define MSG_CONTROL                         _UxGT("Controllo")
 #define MSG_MIN                             LCD_STR_THERMOMETER _UxGT(" Min")
@@ -170,7 +170,7 @@
 #define MSG_VY_JERK                         _UxGT("Vy-jerk")
 #define MSG_VZ_JERK                         _UxGT("Vz-jerk")
 #define MSG_VE_JERK                         _UxGT("Ve-jerk")
-#define MSG_VELOCITY                        _UxGT("Velocità")
+#define MSG_VELOCITY                        _UxGT("VelocitÃ ")
 #define MSG_VMAX                            _UxGT("Vmax ")
 #define MSG_VMIN                            _UxGT("Vmin")
 #define MSG_VTRAV_MIN                       _UxGT("VTrav min")
@@ -278,19 +278,19 @@
 #define MSG_INFO_BAUDRATE                   _UxGT("Baud")
 #define MSG_INFO_PROTOCOL                   _UxGT("Protocollo")
 #define MSG_CASE_LIGHT                      _UxGT("Luci Case")
-#define MSG_CASE_LIGHT_BRIGHTNESS           _UxGT("Luminosità Luci")
+#define MSG_CASE_LIGHT_BRIGHTNESS           _UxGT("LuminositÃ  Luci")
 
 #if LCD_WIDTH >= 20
   #define MSG_INFO_PRINT_COUNT              _UxGT("Contat. stampa")
   #define MSG_INFO_COMPLETED_PRINTS         _UxGT("Completati")
   #define MSG_INFO_PRINT_TIME               _UxGT("Tempo totale")
-  #define MSG_INFO_PRINT_LONGEST            _UxGT("Lavoro più lungo")
+  #define MSG_INFO_PRINT_LONGEST            _UxGT("Lavoro piÃ¹ lungo")
   #define MSG_INFO_PRINT_FILAMENT           _UxGT("Totale estruso")
 #else
   #define MSG_INFO_PRINT_COUNT              _UxGT("Stampe")
   #define MSG_INFO_COMPLETED_PRINTS         _UxGT("Completati")
   #define MSG_INFO_PRINT_TIME               _UxGT("Durata")
-  #define MSG_INFO_PRINT_LONGEST            _UxGT("Più lungo")
+  #define MSG_INFO_PRINT_LONGEST            _UxGT("PiÃ¹ lungo")
   #define MSG_INFO_PRINT_FILAMENT           _UxGT("Estruso")
 #endif
 #define MSG_INFO_MIN_TEMP                   _UxGT("Temp min")
@@ -305,7 +305,7 @@
 #define MSG_FILAMENT_CHANGE_OPTION_HEADER   _UxGT("OPZIONI:")
 #define MSG_FILAMENT_CHANGE_OPTION_EXTRUDE  _UxGT("Estrudi ancora")
 #define MSG_FILAMENT_CHANGE_OPTION_RESUME   _UxGT("Riprendi stampa")
-#define MSG_FILAMENT_CHANGE_MINTEMP         _UxGT("Temp minima è ")
+#define MSG_FILAMENT_CHANGE_MINTEMP         _UxGT("Temp minima Ã¨ ")
 #define MSG_FILAMENT_CHANGE_NOZZLE          _UxGT("  Ugello: ")
 
 #if LCD_HEIGHT >= 4
@@ -344,3 +344,4 @@
 #endif // LCD_HEIGHT < 4
 
 #endif // LANGUAGE_IT_H
+

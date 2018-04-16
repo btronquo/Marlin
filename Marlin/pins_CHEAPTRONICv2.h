@@ -118,3 +118,4 @@
 #ifndef FILWIDTH_PIN
   #define FILWIDTH_PIN     37   // should be Analog Input (0-15)
 #endif
+

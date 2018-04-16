@@ -80,3 +80,4 @@ class MarlinSettings {
 extern MarlinSettings settings;
 
 #endif // CONFIGURATION_STORE_H
+

@@ -170,7 +170,7 @@ class Planner {
     static uint32_t max_acceleration_steps_per_s2[XYZE_N],
                     max_acceleration_mm_per_s2[XYZE_N]; // Use M201 to override
 
-    static uint32_t min_segment_time_us; // Use 'M205 B<µs>' to override
+    static uint32_t min_segment_time_us; // Use 'M205 B<Âµs>' to override
     static float min_feedrate_mm_s,
                  acceleration,         // Normal acceleration mm/s^2  DEFAULT ACCELERATION for all printing moves. M204 SXXXX
                  retract_acceleration, // Retract acceleration mm/s^2 filament pull-back and push-forward while standing still in the other axes M204 TXXXX
@@ -252,12 +252,12 @@ class Planner {
       #define MAX_FREQ_TIME_US (uint32_t)(1000000.0 / XY_FREQUENCY_LIMIT)
       // Old direction bits. Used for speed calculations
       static unsigned char old_direction_bits;
-      // Segment times (in µs). Used for speed calculations
+      // Segment times (in Âµs). Used for speed calculations
       static uint32_t axis_segment_time_us[2][3];
     #endif
 
     #if ENABLED(ULTRA_LCD)
-      volatile static uint32_t block_buffer_runtime_us; //Theoretical block buffer runtime in µs
+      volatile static uint32_t block_buffer_runtime_us; //Theoretical block buffer runtime in Âµs
     #endif
 
   public:
@@ -550,7 +550,7 @@ class Planner {
         CRITICAL_SECTION_START
           millis_t bbru = block_buffer_runtime_us;
         CRITICAL_SECTION_END
-        // To translate µs to ms a division by 1000 would be required.
+        // To translate Âµs to ms a division by 1000 would be required.
         // We introduce 2.4% error here by dividing by 1024.
         // Doesn't matter because block_buffer_runtime_us is already too small an estimation.
         bbru >>= 10;
@@ -632,3 +632,4 @@ class Planner {
 extern Planner planner;
 
 #endif // PLANNER_H
+
